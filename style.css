@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Abril Fatface", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://media.istockphoto.com/id/1226507581/photo/abstract-phoenix-flapping-the-darkness.jpg?s=612x612&w=0&k=20&c=TnFgFg-j_WJa9EHVISEImSSj6P87wopzZFhji_92jzo=);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(8px);
+}
+
+.heading {
+  font-size: 10rem;
+  font-weight: 900;
+  background: url(https://images.unsplash.com/photo-1622110674153-a1326259c41e?q=80&w=1047&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
